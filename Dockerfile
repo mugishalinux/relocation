@@ -1,6 +1,6 @@
-FROM ubuntu:latest
-LABEL authors="kevin"
-VOLUME /tmp
-COPY target/*.jar app.jar
-ENTRYPOINT ["java", ".jar", "/app.jar"]
-EXPOSE 8080
+#FROM openjdk:17
+#ENV PORT 9090
+#EXPOSE 9090
+#COPY target/*.jar /opt/canalbox
+#WORKDIR /opt
+#CMD ["java", "-jar", "canalbox"]
