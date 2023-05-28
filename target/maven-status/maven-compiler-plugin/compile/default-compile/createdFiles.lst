@@ -1,0 +1,12 @@
+com/relocation/relocation/RelocationApplication.class
+com/relocation/relocation/Service/StaffServiceImpl.class
+com/relocation/relocation/Service/RelocationServiceImpl.class
+com/relocation/relocation/Repository/relocationRepository.class
+com/relocation/relocation/ServletInitializer.class
+com/relocation/relocation/ApplicationConfig.class
+com/relocation/relocation/Model/Staff.class
+com/relocation/relocation/Service/StaffService.class
+com/relocation/relocation/Service/RelocationService.class
+com/relocation/relocation/Repository/staffRepository.class
+com/relocation/relocation/Controller/RelocationController.class
+com/relocation/relocation/Model/Relocation.class
