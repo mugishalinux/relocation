@@ -2,7 +2,6 @@
 FROM openjdk:17-alpine
 #create app volume
 VOLUME /tmp
-
 # install app dependencies
 COPY target/*.jar app.jar
 # assign app port

@@ -17,7 +17,6 @@ import java.util.Base64;
 
 @Controller
 public class RelocationController {
-
     @Autowired
     RelocationServiceImpl relocationService;
     @Autowired
