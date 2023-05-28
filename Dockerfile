@@ -1,23 +1,10 @@
-#FROM azul/zulu-openjdk-alpine:17
-#ENV PORT 9090
-#EXPOSE 9090
-#COPY target/*.jar canalbox-component
-#
-#WORKDIR /opt
-#CMD ["java", "-jar", "canalbox-component.jar"]
+FROM azul/zulu-openjdk-alpine:17
+ENV PORT 9090
+EXPOSE 9090
 
-# build environment
-FROM openjdk:11
-#create app volume
-VOLUME /tmp
+COPY target/canalbox-component.jar /opt/canalbox-component/
 
-# install app dependencies
-COPY target/*.jar canalbox-component.jar
+WORKDIR /opt/canalbox-component
 
-# assign app port
-EXPOSE 8080
-# run the web service on container startup
-ENTRYPOINT ["java","-jar", "canalbox-component.jar"]
-
-
+CMD ["java", "-jar", "canalbox-component.jar"]
 
