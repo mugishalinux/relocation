@@ -30,6 +30,13 @@ public class RelocationController {
         System.out.println("Home Page!!!");
         return "homeClient";
     }
+    
+    
+    
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello, Spring Boot!";
+    }
 
 
     //Checking Status using Relocation class
