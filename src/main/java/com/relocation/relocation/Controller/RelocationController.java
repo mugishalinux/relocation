@@ -14,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.Arrays;
 import java.util.Base64;
 
-
+@RestController
 @Controller
 public class RelocationController {
     @Autowired
